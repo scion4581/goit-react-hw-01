@@ -1,0 +1,38 @@
+
+.transactionTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+}
+
+.transactionTable th, .transactionTable td {
+    border: 2px solid #000000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 33.3%;
+}
+
+.transactionTable tbody tr:nth-child(even) {
+    background-color: #D3D3D3;
+}
+
+.transactionRow {
+    color: #000000;
+}
+
+.transactionHeader {
+    background-color: #2A2A2A;
+}
+
+.transactionType {
+    text-transform: capitalize;
+    padding-left: 65px;
+}
+
+.transactionAmount {
+    padding-left: 75px;
+}
+
+.transactionCurrency {
+    padding-left: 85px;
+}
